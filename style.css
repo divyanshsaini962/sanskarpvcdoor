@@ -134,9 +134,9 @@
     width: 100%;
     height: auto;
 }
-.headline-resp{
+/* .headline-resp{
     display: none;
-}
+} */
 .img{
     background-image: url('./gallary/SEC-1.png');
     background-position: center;
@@ -294,37 +294,53 @@
       }
 }
 
-@media only screen and (max-width: 960px){
-    .navlist li a {
-        padding: 0px 20px;
-        font-size: 20px;
-    }
-    h2{
-        padding-top: 1px;
-    }
+@media only screen and (max-width: 912px){
+
     .sec-2 {
-        width: 100%;
-        background-color: #735240;
-        flex-direction: column;
-        height: 400px;
+        height: 100vw;
     }
-    .resp-content{
-        display: block;
-    }
-    .resp-content h1{
-        text-align: center;
-        padding: 15px 0px;
-        font-family: 'Kanit', sans-serif;
-        color: white;
-    }
-    .resp-content p{
-        padding: 5px 10px;
-        
-    }
+   
     .img-2 {
-        display: none;
+       height: 400px;
+       background-size: cover;
     }
 
+}
+@media only screen and (max-width: 705px){
+  .sec-2 {
+    height: auto;
+  }
+    .img-2 {
+       height: 330px;
+       background-size: cover;
+    }
+}
+@media only screen and (max-width: 588px){
+     .sec-2 {
+       height: auto;
+     }
+    .img-2 {
+       height: 300px;
+       background-size: cover;
+    }
+}
+@media only screen and (max-width: 504px){
+  .sec-2 {
+    height: auto;
+  }
+    .img-2 {
+       height: 230px;
+       background-size: cover;
+    }
+}
+@media only screen and (max-width: 404px){
+  .sec-2 {
+    height: auto;
+  }
+    .img-2 {
+       height: 200px;
+       background-size: cover;
+    }
 }
 @media(max-width: 767px){
     .footer-col{
@@ -339,47 +355,13 @@
   }
 
 @media only screen and (max-width: 676px){
-    .navlist{
-        display: block;
-        width: fit-content;
-        margin: 80px auto 0 auto;
-        text-align: center;
-        transition: 0.5s;
-        overflow: hidden;
-    }
-    .v-class-resp{
-        height: 0px;
-        position: absolute;
-        top: 0px;
-        left: 0;
-        right: 0;
-        width: 100vw;
-        background: rgb(253, 253, 253);
-        transition: 0.2s;
-
-    }
-    .active{
-        height: 300px;
-    }
-    .burger{
-        display: block;
-        cursor: pointer;
-    }
-    .navbar ul li:hover .drop-down-manu{
-        display: block;
-        position: relative;
-        left: 0;
-        right: 0;
-        padding: 0;
-        top: 100%;
-        width: auto;
-        background-color: rgb(253, 250, 250);
-    }
-    .img{
-        background-image: url('./gallary/section-1\ resp.jpg');  
-        overflow:hidden; 
-    }
-
+  .sec-1{
+    width: 100%;
+    height: 100vw;
+}
+.img{
+  height: 100vw;
+}
 }
 /*This Media Query use for Mobile View*/
 @media screen and (max-width: 767px){
