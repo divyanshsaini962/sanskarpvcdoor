@@ -416,6 +416,13 @@
                                 /* end of sec-2 resp */
 
                                                         /* sec-3-4 resp */
+@media only screen and (max-width:900px){
+  .win-gall{
+    width: 40%;
+    height: auto;
+    /* margin: 21px; */
+}
+}
 @media only screen and (max-width:600px){
   .win-gall{
     width: 70%;
