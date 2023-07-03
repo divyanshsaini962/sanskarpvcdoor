@@ -162,7 +162,7 @@
                                                       /* section -3 */
 .sec-3{
     width: 100%;
-    height: 400px;
+    height: auto;
 }
 .con-1{
     padding-right: 15px;
@@ -179,13 +179,15 @@
 }
 .window-sec{
     width: 100%;
-    height: 300px;
+    height: auto;
     display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
 }
 .win-gall{
     width: 22%;
     height: auto;
-    margin: 21px;
 }
 .win-gall img{
     width: 90%;
@@ -209,6 +211,7 @@
     color: white;
 
 }
+
                                              /* footer */
 
 
@@ -367,7 +370,7 @@
 @media only screen and (max-width: 912px){
 
     .sec-2 {
-        height: 100vw;
+        height: auto;
     }
    
     .img-2 {
@@ -414,7 +417,14 @@
 }
                                 /* end of sec-2 resp */
 
-                                
+                                                        /* sec-3-4 resp */
+@media only screen and (max-width:600px){
+  .win-gall{
+    width: 70%;
+    height: auto;
+    /* margin: 21px; */
+}
+}
 /* start footer-sec resp */
 @media(max-width: 767px){
     .footer-col{
