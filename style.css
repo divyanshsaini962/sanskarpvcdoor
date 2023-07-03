@@ -156,9 +156,7 @@
     width: 100%;
     height: 600px;
 }
-.resp-content{
-    display: none;
-}
+
                                                       /* section -3 */
 .sec-3{
     width: 100%;
@@ -201,7 +199,7 @@
     height: 50px;
     width: 150px;
     border: none;
-    background-color: violet;
+    background-color: #643392;
     border-radius: 2px;
 }
 .btn-1 a{
