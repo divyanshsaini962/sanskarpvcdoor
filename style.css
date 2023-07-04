@@ -132,30 +132,21 @@
                                                    /* section -1  */
 .sec-1{
     width: 100%;
-    height: auto;
-}
-/* .headline-resp{
-    display: none;
-} */
-.img{
-    background-image: url('./gallary/SEC-1.png');
+    height: 110vh;
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 714px;
+    background-image: url('./gallary/SEC-1.png');
 }
+
                                                     /* section - 2 */
 .sec-2{
     width: 100%;
-    height: auto;
-}
-.img-2{
+    height: 100vh;
     background-image: url('./gallary/SEC-2.png');
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 600px;
 }
+
 
                                                       /* section -3 */
 .sec-3{
@@ -366,65 +357,65 @@
 
 /* sec-1 resp */
 @media only screen and (max-width: 1500px){
-  .img{
-    height: 820px;
+  .sec-1{
+    height: 110vh;
   }
 }
-/* sec-2 resp start */
-@media only screen and (max-width: 1500px){
-.img-2 {
-     height: 650px;
-     background-size: cover;
+@media only screen and (max-width: 912px){
+  .sec-1{
+    height: 36vh;
   }
+}
+@media only screen and (max-width: 676px){
+  .sec-1{
+    width: 100%;
+    height: 43vh;
+}
+}
+@media only screen and (max-width: 300px){
+  .sec-1{
+    width: 100%;
+    height: 30vh;
+}
+}
+/* sec-2 resp start */
 
+ @media only screen and (max-width: 1300px){
+.sec-2 {
+     height: 92vh;
+  } 
 }
 @media only screen and (max-width: 912px){
 
     .sec-2 {
-        height: auto;
+        height: 32vh;
     }
    
-    .img-2 {
-       height: 400px;
-       background-size: cover;
-    }
-
 }
 @media only screen and (max-width: 705px){
   .sec-2 {
-    height: auto;
+    height: 25vh;
   }
-    .img-2 {
-       height: 330px;
-       background-size: cover;
-    }
 }
 @media only screen and (max-width: 588px){
      .sec-2 {
-       height: auto;
+       height: 33vh;
      }
-    .img-2 {
-       height: 300px;
-       background-size: cover;
-    }
 }
 @media only screen and (max-width: 504px){
   .sec-2 {
-    height: auto;
+    height: 26vh;
   }
-    .img-2 {
-       height: 230px;
-       background-size: cover;
-    }
 }
 @media only screen and (max-width: 404px){
   .sec-2 {
-    height: auto;
+    height: 25vh;
   }
-    .img-2 {
-       height: 200px;
-       background-size: cover;
-    }
+}
+@media only screen and (max-width: 338px){
+  .sec-2 {
+    height: 18vh;
+  }
 }
                                 /* end of sec-2 resp */
 
@@ -456,14 +447,7 @@
   }
   }
 
-@media only screen and (max-width: 676px){
-  .sec-1{
-    width: 100%;
-    height: 100vw;
-}
-.img{
-  height: 100vw;
-}
-}                
+
+               
                               /* end of footer-sec resp */
                               
