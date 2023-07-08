@@ -7,100 +7,180 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 <style>
-    .about-sec{
-          width: 100%;
-          height: auto;
-      }
-      .img-back{
-          background-image: url('gallary/windo-about.png');
-          width: 100%;
-          background-position: center;
-          background-size: cover;
-          height: 400px;
-      }
-      .cont{
-          height: 150px;
-          width: 660px;
-          padding: 10px;
-          padding-top: 50px;
-          padding-left: 88px;
-      }
-      .cont h1{
-          font-family: 'Kanit', sans-serif;
-          color: white;
-          font-size: 40px;
-      }
-      .cont p{
-         padding-top: 14px;
-         font-size: 18px;
-      }
-      .cont p{
-         padding-top: 14px;
-         padding-left: 4px;
-         font-size: 18px;
-         color: white;
-      }
-      .hedding{
-          width: 100%;
-          height: 30px;
-          display: flex;
-          margin-top: 17px;
-      }
-      .con-about{
-          padding-left: 20px;
-          display: flex;
-      }
-      .hedding p{
-          color: grey;
-          font-family: 'Kanit', sans-serif;
-          padding-left: 6px;
-          font-size: 18px;
-      }
-      .hedding p a{
-          color: grey;
-          text-decoration: none;
-          font-family: 'Kanit', sans-serif;
-          font-size: 18px;
-      }
-      .line{
-          background-color: #dde0e7;
-          height: 1px;
-          margin-top: 30px;
-      }
-                                         /* main-box */
-      .main-box{
-          width: 100%;
-          height: 500px;
-      }
-      .main-cont{
-          width: 986px;
-          height: 397px;
-          margin: 20px 176px;
-          display: flex;
-      }
-      .text-area{
-          width: 60%;
-      }
-      .text-area h1{
-          padding-left: 37px;
-          padding-top: 20px;
-          font-family: 'Kanit', sans-serif;
-      }
-      .text-area p{
-       padding-left: 38px;
-       font-family: 'Roboto', sans-serif;
-       color: grey;
-       padding-right: 18px;
-      }
-      .img-area{
-          width: 40%;
-      }
-      .main-cont-2 {
-          height: 500px;
-      } 
-      .img-area img{
-        padding-top: 50px;
-      }                                 
+  .about-sec{
+            width: 100%;
+            height: auto;
+            margin-top: 19px;
+        }
+        .img-back{
+            background-image: url('gallary/windo-about.png');
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+        }
+        .cont{
+            height: 150px;
+            width: 660px;
+            padding: 10px;
+            padding-top: 50px;
+            padding-left: 88px;
+        }
+        .cont h1{
+            font-family: 'Kanit', sans-serif;
+            color: white;
+            font-size: 40px;
+        }
+        .cont p{
+           padding-top: 14px;
+           font-size: 18px;
+        }
+        .cont p{
+           padding-top: 14px;
+           padding-left: 4px;
+           font-size: 18px;
+           color: white;
+        }
+        .hedding{
+            width: 100%;
+            height: 30px;
+            display: flex;
+            margin-top: 17px;
+        }
+        .con-about{
+            padding-left: 20px;
+            display: flex;
+        }
+        .hedding p{
+            color: grey;
+            font-family: 'Kanit', sans-serif;
+            padding-left: 6px;
+            font-size: 18px;
+        }
+        .hedding p a{
+            color: grey;
+            text-decoration: none;
+            font-family: 'Kanit', sans-serif;
+            font-size: 18px;
+        }
+        .line{
+            background-color: #dde0e7;
+            height: 1px;
+            margin-top: 30px;
+        }
+                                           /* main-box */
+        .main-box{
+            width: 100%;
+            height: 500px;
+        }
+        .main-cont{
+            width: 986px;
+            height: 397px;
+            margin: 20px 176px;
+            display: flex;
+        }
+        .text-area{
+            width: 60%;
+        }
+        .text-area h1{
+            padding-left: 37px;
+            padding-top: 20px;
+            font-family: 'Kanit', sans-serif;
+        }
+        .text-area p{
+         padding-left: 38px;
+         font-family: 'Roboto', sans-serif;
+         color: grey;
+         padding-right: 18px;
+        }
+        .img-area{
+            width: 40%;
+        }
+        .img-area img {
+          padding-top: 74px;
+        }
+        .main-cont-2 {
+            height: 500px;
+        }  
+                                           /* responsive code */
+@media only screen and (max-width: 1176px){
+  .main-cont{
+    margin: 20px 50px;
+  }
+}
+@media only screen and (max-width: 912px){
+  .img-back{
+    height: auto;
+  }
+  .img-back {
+    height: auto;
+}
+.cont{
+    padding-left: 45px;
+    width: 390px;
+  }
+.cont h1{
+  font-size: 25px;
+}
+.cont p{
+  font-size: 12px;
+  padding-top: 5px;
+}
+      /* main cont resp */
+.main-box{
+  width: 100%;
+  height: auto;
+  padding-bottom: 41px;
+}
+.main-cont{
+  margin: 0px;
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+}
+.img-area{
+  padding: 0px 25px;
+  width: 100%;
+}
+.img-area img {
+    padding-top: 2px;
+}
+.text-area{
+  width: 100%;
+}
+.text-area h1{
+  padding-top: 9px;
+}
+}
+@media only screen and (max-width: 600px){
+  .cont{
+    width: 100%;
+    padding-left: 45px;
+  }
+}
+@media only screen and (max-width: 400px){
+  .img-back {
+    height: auto;
+}
+.cont h1{
+  font-size: 25px;
+}
+.cont p{
+  font-size: 12px;
+  padding-top: 5px;
+}
+}
+@media only screen and (max-width: 300px){
+  .cont{
+    padding-left: 25px;
+  }
+  .cont h1 {
+    font-size: 20px;
+}
+.cont p {
+    font-size: 9px;
+}
+}                                 
       
   </style>
     <title>Aluminum Door</title>
@@ -180,6 +260,9 @@
                                                       <!-- 1-main-box -->
     <div class="main-box">
   <div class="main-cont">
+    <div class="img-area">
+      <img src="gallary/aluminium door.jpg" width="100%" height="100%">
+    </div>
     <div class="text-area">
       <h1>Aluminum Entry Doors</h1>
       <p>Begin by introducing aluminum entry doors as a popular and versatile choice for residential and
@@ -203,9 +286,6 @@
             features.
       </p>
     </div>
-    <div class="img-area">
-      <img src="gallary/aluminium door.jpg" width="100%" height="100%">
-    </div>
   </div>
 </div>
 <br>
@@ -213,6 +293,9 @@
                                             <!-- 2-main-box -->
 <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/aluminium sliding door.jpg" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Aluminum Sliding Doors:</h1>
         <p>Begin by introducing aluminum sliding doors as a popular and practical choice for residential and 
@@ -236,9 +319,7 @@
               size and number of panels to suit different spaces and architectural preferences.
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/aluminium sliding door.jpg" width="100%" height="100%">
-      </div>
+      
     </div>
   </div>
   <br>
@@ -246,6 +327,9 @@
                                               <!-- 3-main-box -->
   <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/aluminium-glass-french-door.webp" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Aluminum French Doors:</h1>
         <p>Begin by introducing aluminum French doors as a classic and elegant choice for residential and 
@@ -269,9 +353,7 @@
               panels to suit different architectural preferences.
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/aluminium-glass-french-door.webp" width="100%" height="100%">
-      </div>
+      
     </div>
   </div>
   <br>
@@ -279,6 +361,9 @@
                                               <!-- 4-main-box -->
     <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/bi-fold-2-1.jpg" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Aluminum Bi-fold Doors:</h1>
         <p>Begin by introducing aluminum bi-fold doors as a modern and versatile choice for residential and 
@@ -303,9 +388,7 @@
 
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/bi-fold-2-1.jpg" width="100%" height="100%">
-      </div>
+      
     </div>
   </div>
   <br>
@@ -313,6 +396,9 @@
                                           <!-- 5-main-box -->
    <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/brisa-aluminum-patio-slider.webp" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Aluminum Patio Doors:</h1>
         <p>Aluminum patio doors are a popular choice for homeowners looking to enhance their outdoor living 
@@ -337,9 +423,7 @@
 
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/brisa-aluminum-patio-slider.webp" width="100%" height="100%">
-      </div>
+      
     </div>
   </div>
   <br>
@@ -347,6 +431,9 @@
                                            <!-- 6-main-box -->
     <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/pivot door.jpg" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Aluminum Pivot Doors:</h1>
         <p>Begin by introducing aluminum pivot doors as a contemporary and innovative choice for both 
@@ -369,9 +456,7 @@
              unique and eye-catching designs.
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/pivot door.jpg" width="100%" height="100%">
-      </div>
+      
     </div>
   </div>
   <br>
@@ -379,6 +464,9 @@
                                           <!-- 7-main-box -->
     <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/security door.jpg" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Aluminum Security Doors:</h1>
         <p>Begin by introducing aluminum security doors as a reliable and effective solution for enhancing 
@@ -400,9 +488,6 @@
                systems, tamper-resistant hinges, and impact-resistant mesh or grille inserts. Emphasize that these
                 features provide an additional layer of security to the home.
         </p>
-      </div>
-      <div class="img-area">
-        <img src="gallary/security door.jpg" width="100%" height="100%">
       </div>
     </div>
   </div>

@@ -7,100 +7,180 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <style>
-        .about-sec{
-              width: 100%;
-              height: auto;
-          }
-          .img-back{
-              background-image: url('gallary/windo-about.png');
-              width: 100%;
-              background-position: center;
-              background-size: cover;
-              height: 400px;
-          }
-          .cont{
-              height: 150px;
-              width: 660px;
-              padding: 10px;
-              padding-top: 50px;
-              padding-left: 88px;
-          }
-          .cont h1{
-              font-family: 'Kanit', sans-serif;
-              color: white;
-              font-size: 40px;
-          }
-          .cont p{
-             padding-top: 14px;
-             font-size: 18px;
-          }
-          .cont p{
-             padding-top: 14px;
-             padding-left: 4px;
-             font-size: 18px;
-             color: white;
-          }
-          .hedding{
-              width: 100%;
-              height: 30px;
-              display: flex;
-              margin-top: 17px;
-          }
-          .con-about{
-              padding-left: 20px;
-              display: flex;
-          }
-          .hedding p{
-              color: grey;
-              font-family: 'Kanit', sans-serif;
-              padding-left: 6px;
-              font-size: 18px;
-          }
-          .hedding p a{
-              color: grey;
-              text-decoration: none;
-              font-family: 'Kanit', sans-serif;
-              font-size: 18px;
-          }
-          .line{
-              background-color: #dde0e7;
-              height: 1px;
-              margin-top: 30px;
-          }
-                                             /* main-box */
-          .main-box{
-              width: 100%;
-              height: 500px;
-          }
-          .main-cont{
-              width: 986px;
-              height: 397px;
-              margin: 20px 176px;
-              display: flex;
-          }
-          .text-area{
-              width: 60%;
-          }
-          .text-area h1{
-              padding-left: 37px;
-              padding-top: 20px;
-              font-family: 'Kanit', sans-serif;
-          }
-          .text-area p{
-           padding-left: 38px;
-           font-family: 'Roboto', sans-serif;
-           color: grey;
-           padding-right: 18px;
-          }
-          .img-area{
-              width: 40%;
-          }
-          .main-cont-2 {
-              height: 500px;
-          } 
-          .img-area img{
+          .about-sec{
+            width: 100%;
+            height: auto;
+            margin-top: 19px;
+        }
+        .img-back{
+            background-image: url('gallary/windo-about.png');
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+        }
+        .cont{
+            height: 150px;
+            width: 660px;
+            padding: 10px;
             padding-top: 50px;
-          }                                 
+            padding-left: 88px;
+        }
+        .cont h1{
+            font-family: 'Kanit', sans-serif;
+            color: white;
+            font-size: 40px;
+        }
+        .cont p{
+           padding-top: 14px;
+           font-size: 18px;
+        }
+        .cont p{
+           padding-top: 14px;
+           padding-left: 4px;
+           font-size: 18px;
+           color: white;
+        }
+        .hedding{
+            width: 100%;
+            height: 30px;
+            display: flex;
+            margin-top: 17px;
+        }
+        .con-about{
+            padding-left: 20px;
+            display: flex;
+        }
+        .hedding p{
+            color: grey;
+            font-family: 'Kanit', sans-serif;
+            padding-left: 6px;
+            font-size: 18px;
+        }
+        .hedding p a{
+            color: grey;
+            text-decoration: none;
+            font-family: 'Kanit', sans-serif;
+            font-size: 18px;
+        }
+        .line{
+            background-color: #dde0e7;
+            height: 1px;
+            margin-top: 30px;
+        }
+                                           /* main-box */
+        .main-box{
+            width: 100%;
+            height: 500px;
+        }
+        .main-cont{
+            width: 986px;
+            height: 397px;
+            margin: 20px 176px;
+            display: flex;
+        }
+        .text-area{
+            width: 60%;
+        }
+        .text-area h1{
+            padding-left: 37px;
+            padding-top: 20px;
+            font-family: 'Kanit', sans-serif;
+        }
+        .text-area p{
+         padding-left: 38px;
+         font-family: 'Roboto', sans-serif;
+         color: grey;
+         padding-right: 18px;
+        }
+        .img-area{
+            width: 40%;
+        }
+        .img-area img {
+          padding-top: 74px;
+        }
+        .main-cont-2 {
+            height: 500px;
+        }  
+                                           /* responsive code */
+@media only screen and (max-width: 1176px){
+  .main-cont{
+    margin: 20px 50px;
+  }
+}
+@media only screen and (max-width: 912px){
+  .img-back{
+    height: auto;
+  }
+  .img-back {
+    height: auto;
+}
+.cont{
+    padding-left: 45px;
+    width: 390px;
+  }
+.cont h1{
+  font-size: 25px;
+}
+.cont p{
+  font-size: 12px;
+  padding-top: 5px;
+}
+      /* main cont resp */
+.main-box{
+  width: 100%;
+  height: auto;
+  padding-bottom: 41px;
+}
+.main-cont{
+  margin: 0px;
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+}
+.img-area{
+  padding: 0px 25px;
+  width: 100%;
+}
+.img-area img {
+    padding-top: 2px;
+}
+.text-area{
+  width: 100%;
+}
+.text-area h1{
+  padding-top: 9px;
+}
+}
+@media only screen and (max-width: 600px){
+  .cont{
+    width: 100%;
+    padding-left: 45px;
+  }
+}
+@media only screen and (max-width: 400px){
+  .img-back {
+    height: auto;
+}
+.cont h1{
+  font-size: 25px;
+}
+.cont p{
+  font-size: 12px;
+  padding-top: 5px;
+}
+}
+@media only screen and (max-width: 300px){
+  .cont{
+    padding-left: 25px;
+  }
+  .cont h1 {
+    font-size: 20px;
+}
+.cont p {
+    font-size: 9px;
+}
+}                               
           
       </style>
     <title>Wood Windows</title>
@@ -180,6 +260,9 @@
                                                       <!-- 1-main-box -->
     <div class="main-box">
   <div class="main-cont">
+    <div class="img-area">
+      <img src="gallary/double-hung-wood-window-500x500.webp" width="100%" height="100%">
+    </div>
     <div class="text-area">
       <h1>Wood Double-Hung Windows:</h1>
       <p>Traditional Elegance: <br>
@@ -204,9 +287,7 @@
              or refinishing as needed, can further extend their lifespan.
       </p>
     </div>
-    <div class="img-area">
-      <img src="gallary/double-hung-wood-window-500x500.webp" width="100%" height="100%">
-    </div>
+    
   </div>
 </div>
 <br>
@@ -214,6 +295,9 @@
                                           <!-- 2-main-box -->
   <div class="main-box">
   <div class="main-cont">
+    <div class="img-area">
+      <img src="gallary/italian-casement-window-500x500.webp" width="100%" height="100%">
+    </div>
     <div class="text-area">
       <h1>Wood Casement Windows:</h1>
       <p>Classic Design:  <br>
@@ -237,9 +321,7 @@
            energy consumption and lower heating and cooling costs.
       </p>
     </div>
-    <div class="img-area">
-      <img src="gallary/italian-casement-window-500x500.webp" width="100%" height="100%">
-    </div>
+    
   </div>
 </div>
 <br>
@@ -247,6 +329,9 @@
                              <!-- 3-main-box -->
 <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/awning-windows-wood.webp" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Wood Awning Windows:</h1>
         <p>Classic Appeal: <br>
@@ -270,9 +355,7 @@
              window remains closed and protected when desired.
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/awning-windows-wood.webp" width="100%" height="100%">
-      </div>
+      
     </div>
   </div>
   <br>
@@ -280,6 +363,9 @@
                                         <!-- 4-main-box -->
   <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/bay wood wind.jpg" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Wood Bay Windows:</h1>
         <p>Expansive Views and Natural Light:  <br>
@@ -304,9 +390,7 @@
                adds versatility and functionality to the room.
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/bay wood wind.jpg" width="100%" height="100%">
-      </div>
+      
     </div>
   </div>
   <br>
@@ -314,6 +398,9 @@
                                            <!-- 5-main-box -->
   <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/bays bow window wood.jpg" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Wood Bow Windows:</h1>
         <p>Graceful Design and Visual Appeal: <br>
@@ -337,9 +424,7 @@
                to meet specific design and functional requirements.
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/bays bow window wood.jpg" width="100%" height="100%">
-      </div>
+      
     </div>
   </div>
   <br>
@@ -347,6 +432,9 @@
                                     <!-- 6-main-box -->
   <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/sliding wood window.jpg" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Wood Sliding Windows: </h1>
         <p>Streamlined Design: <br>
@@ -373,9 +461,7 @@
               connectivity with the surroundings.
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/sliding wood window.jpg" width="100%" height="100%">
-      </div>
+      
     </div>
   </div>
   <br>
@@ -383,6 +469,9 @@
                                              <!-- 7-main-box -->
   <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/wood window.jpg" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Wood Jalousie Windows: </h1>
         <p>Natural Beauty:  <br>
@@ -404,13 +493,9 @@
               Wood frames provide strength and stability, and with regular sealing, finishing, and 
               maintenance, they can withstand the elements and resist rot, decay, and insect damage.
                Periodic inspection and refinishing as needed will help prolong their lifespan.
-
-
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/wood window.jpg" width="100%" height="100%">
-      </div>
+      
     </div>
   </div>
   <br>

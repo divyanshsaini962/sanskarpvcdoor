@@ -7,100 +7,180 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <style>
-    .about-sec{
-          width: 100%;
-          height: auto;
-      }
-      .img-back{
-          background-image: url('gallary/windo-about.png');
-          width: 100%;
-          background-position: center;
-          background-size: cover;
-          height: 400px;
-      }
-      .cont{
-          height: 150px;
-          width: 660px;
-          padding: 10px;
-          padding-top: 50px;
-          padding-left: 88px;
-      }
-      .cont h1{
-          font-family: 'Kanit', sans-serif;
-          color: white;
-          font-size: 40px;
-      }
-      .cont p{
-         padding-top: 14px;
-         font-size: 18px;
-      }
-      .cont p{
-         padding-top: 14px;
-         padding-left: 4px;
-         font-size: 18px;
-         color: white;
-      }
-      .hedding{
-          width: 100%;
-          height: 30px;
-          display: flex;
-          margin-top: 17px;
-      }
-      .con-about{
-          padding-left: 20px;
-          display: flex;
-      }
-      .hedding p{
-          color: grey;
-          font-family: 'Kanit', sans-serif;
-          padding-left: 6px;
-          font-size: 18px;
-      }
-      .hedding p a{
-          color: grey;
-          text-decoration: none;
-          font-family: 'Kanit', sans-serif;
-          font-size: 18px;
-      }
-      .line{
-          background-color: #dde0e7;
-          height: 1px;
-          margin-top: 30px;
-      }
-                                         /* main-box */
-      .main-box{
-          width: 100%;
-          height: 500px;
-      }
-      .main-cont{
-          width: 986px;
-          height: 397px;
-          margin: 20px 176px;
-          display: flex;
-      }
-      .text-area{
-          width: 60%;
-      }
-      .text-area h1{
-          padding-left: 37px;
-          padding-top: 20px;
-          font-family: 'Kanit', sans-serif;
-      }
-      .text-area p{
-       padding-left: 38px;
-       font-family: 'Roboto', sans-serif;
-       color: grey;
-       padding-right: 18px;
-      }
-      .img-area{
-          width: 40%;
-      }
-      .main-cont-2 {
-          height: 500px;
-      } 
-      .img-area img{
-        padding-top: 51px;
-      }                                  
+  .about-sec{
+            width: 100%;
+            height: auto;
+            margin-top: 19px;
+        }
+        .img-back{
+            background-image: url('gallary/windo-about.png');
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+        }
+        .cont{
+            height: 150px;
+            width: 660px;
+            padding: 10px;
+            padding-top: 50px;
+            padding-left: 88px;
+        }
+        .cont h1{
+            font-family: 'Kanit', sans-serif;
+            color: white;
+            font-size: 40px;
+        }
+        .cont p{
+           padding-top: 14px;
+           font-size: 18px;
+        }
+        .cont p{
+           padding-top: 14px;
+           padding-left: 4px;
+           font-size: 18px;
+           color: white;
+        }
+        .hedding{
+            width: 100%;
+            height: 30px;
+            display: flex;
+            margin-top: 17px;
+        }
+        .con-about{
+            padding-left: 20px;
+            display: flex;
+        }
+        .hedding p{
+            color: grey;
+            font-family: 'Kanit', sans-serif;
+            padding-left: 6px;
+            font-size: 18px;
+        }
+        .hedding p a{
+            color: grey;
+            text-decoration: none;
+            font-family: 'Kanit', sans-serif;
+            font-size: 18px;
+        }
+        .line{
+            background-color: #dde0e7;
+            height: 1px;
+            margin-top: 30px;
+        }
+                                           /* main-box */
+        .main-box{
+            width: 100%;
+            height: 500px;
+        }
+        .main-cont{
+            width: 986px;
+            height: 397px;
+            margin: 20px 176px;
+            display: flex;
+        }
+        .text-area{
+            width: 60%;
+        }
+        .text-area h1{
+            padding-left: 37px;
+            padding-top: 20px;
+            font-family: 'Kanit', sans-serif;
+        }
+        .text-area p{
+         padding-left: 38px;
+         font-family: 'Roboto', sans-serif;
+         color: grey;
+         padding-right: 18px;
+        }
+        .img-area{
+            width: 40%;
+        }
+        .img-area img {
+          padding-top: 74px;
+        }
+        .main-cont-2 {
+            height: 500px;
+        }  
+                                           /* responsive code */
+@media only screen and (max-width: 1176px){
+  .main-cont{
+    margin: 20px 50px;
+  }
+}
+@media only screen and (max-width: 912px){
+  .img-back{
+    height: auto;
+  }
+  .img-back {
+    height: auto;
+}
+.cont{
+    padding-left: 45px;
+    width: 390px;
+  }
+.cont h1{
+  font-size: 25px;
+}
+.cont p{
+  font-size: 12px;
+  padding-top: 5px;
+}
+      /* main cont resp */
+.main-box{
+  width: 100%;
+  height: auto;
+  padding-bottom: 41px;
+}
+.main-cont{
+  margin: 0px;
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+}
+.img-area{
+  padding: 0px 25px;
+  width: 100%;
+}
+.img-area img {
+    padding-top: 2px;
+}
+.text-area{
+  width: 100%;
+}
+.text-area h1{
+  padding-top: 9px;
+}
+}
+@media only screen and (max-width: 600px){
+  .cont{
+    width: 100%;
+    padding-left: 45px;
+  }
+}
+@media only screen and (max-width: 400px){
+  .img-back {
+    height: auto;
+}
+.cont h1{
+  font-size: 25px;
+}
+.cont p{
+  font-size: 12px;
+  padding-top: 5px;
+}
+}
+@media only screen and (max-width: 300px){
+  .cont{
+    padding-left: 25px;
+  }
+  .cont h1 {
+    font-size: 20px;
+}
+.cont p {
+    font-size: 9px;
+}
+}                                 
       
   </style>
     <title>Aluminium Window</title>
@@ -181,6 +261,9 @@
                                                       <!-- 1-main-box -->
     <div class="main-box">
   <div class="main-cont">
+    <div class="img-area">
+      <img src="gallary/casematic window.jpg" width="100%" height="100%">
+    </div>
     <div class="text-area">
       <h1>Aluminum Casement Windows:</h1>
       <p>Aluminum casement windows are a popular choice for homeowners seeking a combination of durability,
@@ -203,9 +286,7 @@
             enhancing energy efficiency and weather resistance.
       </p>
     </div>
-    <div class="img-area">
-      <img src="gallary/casematic window.jpg" width="100%" height="100%">
-    </div>
+    
   </div>
 </div>
 <br>
@@ -213,6 +294,9 @@
                                  <!-- 2-main-box -->
 <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/sliding window aluminium.jpg" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Aluminum Sliding Windows:</h1>
         <p>Aluminum sliding windows are a popular choice for homeowners seeking a sleek and modern window 
@@ -237,9 +321,7 @@
              with minimal effort.
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/sliding window aluminium.jpg" width="100%" height="100%">
-      </div>
+      
     </div>
   </div>
   <br>
@@ -247,6 +329,9 @@
                                              <!-- 3-main-box -->
   <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/aluminium awnig window.jpg" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Aluminum Awning Windows:</h1>
         <p>Aluminum awning windows are a popular choice for homeowners seeking a combination of durability,
@@ -271,9 +356,7 @@
                the window opening, providing control over the amount of airflow and ventilation.
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/aluminium awnig window.jpg" width="100%" height="100%">
-      </div>
+      
     </div>
   </div>
   <br>
@@ -281,6 +364,9 @@
                                                            <!-- 4-main-box -->
   <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/aluminium picture window.jpg" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Aluminum Picture Windows:</h1>
         <p>Aluminum picture windows are a popular choice for homeowners seeking to maximize natural light,
@@ -307,9 +393,7 @@
                preferences and architectural styles.
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/aluminium picture window.jpg" width="100%" height="100%">
-      </div>
+     
     </div>
   </div>
   <br>
@@ -317,6 +401,9 @@
                                               <!-- 5-main-box -->
   <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/aluminium bay windows.jpg" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Aluminum Bay and Bow Windows</h1>
         <p>Aluminum bay and bow windows are a popular choice for homeowners looking to add architectural 
@@ -342,9 +429,7 @@
         
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/aluminium bay windows.jpg" width="100%" height="100%">
-      </div>
+     
     </div>
   </div>
   <br>
@@ -352,6 +437,9 @@
                                           <!-- 6-main-box -->
   <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/aluminium sky window.jpg" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Aluminum Skylight Windows:</h1>
         <p>Aluminum skylight windows are an excellent choice for homeowners looking to bring natural light 
@@ -376,9 +464,7 @@
         
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/aluminium sky window.jpg" width="100%" height="100%">
-      </div>
+      
     </div>
   </div>
   <br>
@@ -386,6 +472,9 @@
                                          <!-- 7-main-box -->
     <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/aluminium-tilt-and-turn-windows-.webp" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>Aluminum Tilt and Turn Windows:</h1>
         <p>Aluminum tilt and turn windows offer a versatile and practical solution for homeowners seeking 
@@ -412,9 +501,7 @@
         
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/aluminium-tilt-and-turn-windows-.webp" width="100%" height="100%">
-      </div>
+      
     </div>
   </div>
   <br>

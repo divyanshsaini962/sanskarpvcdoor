@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <style>
-        .about-sec{
+<style>
+  .about-sec{
             width: 100%;
             height: auto;
+            margin-top: 19px;
         }
         .img-back{
             background-image: url('gallary/windo-about.png');
@@ -33,12 +34,12 @@
         .cont p{
            padding-top: 14px;
            font-size: 18px;
-           color: white;
         }
         .cont p{
            padding-top: 14px;
            padding-left: 4px;
            font-size: 18px;
+           color: white;
         }
         .hedding{
             width: 100%;
@@ -67,6 +68,7 @@
             height: 1px;
             margin-top: 30px;
         }
+                                           /* main-box */
         .main-box{
             width: 100%;
             height: 500px;
@@ -95,13 +97,91 @@
             width: 40%;
         }
         .img-area img {
-          padding-top: 51px;
+          padding-top: 74px;
         }
         .main-cont-2 {
             height: 500px;
-        }                                   
-        
-    </style>
+        }  
+                                           /* responsive code */
+@media only screen and (max-width: 1176px){
+  .main-cont{
+    margin: 20px 50px;
+  }
+}
+@media only screen and (max-width: 912px){
+  .img-back{
+    height: auto;
+  }
+  .img-back {
+    height: auto;
+}
+.cont{
+    padding-left: 45px;
+    width: 390px;
+  }
+.cont h1{
+  font-size: 25px;
+}
+.cont p{
+  font-size: 12px;
+  padding-top: 5px;
+}
+      /* main cont resp */
+.main-box{
+  width: 100%;
+  height: auto;
+  padding-bottom: 41px;
+}
+.main-cont{
+  margin: 0px;
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+}
+.img-area{
+  padding: 0px 25px;
+  width: 100%;
+}
+.img-area img {
+    padding-top: 2px;
+}
+.text-area{
+  width: 100%;
+}
+.text-area h1{
+  padding-top: 9px;
+}
+}
+@media only screen and (max-width: 600px){
+  .cont{
+    width: 100%;
+    padding-left: 45px;
+  }
+}
+@media only screen and (max-width: 400px){
+  .img-back {
+    height: auto;
+}
+.cont h1{
+  font-size: 25px;
+}
+.cont p{
+  font-size: 12px;
+  padding-top: 5px;
+}
+}
+@media only screen and (max-width: 300px){
+  .cont{
+    padding-left: 25px;
+  }
+  .cont h1 {
+    font-size: 20px;
+}
+.cont p {
+    font-size: 9px;
+}
+}
+</style>
     <title>PVC Window</title>
 </head>
 <body>
@@ -179,6 +259,9 @@
                                     <!-- 1-main-box -->
 <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/PVC window.webp" width="100%" height="100%">
+      </div>
       <div class="text-area">
         <h1>PVC Casement Windows</h1>
         <p>Start by introducing PVC casement windows. Mention that they are a popular type of window made
@@ -205,9 +288,7 @@
                  indoor environment.
         </p>
       </div>
-      <div class="img-area">
-        <img src="gallary/PVC window.webp" width="100%" height="100%">
-      </div>
+     
     </div>
   </div>
 <br>
@@ -215,6 +296,9 @@
                                 <!-- 2-main-box -->
 <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/pvc-sliding-window-500x500.webp" width="100%" height="100%">
+         </div>
         <div class="text-area">
         <h1>PVC Sliding Windows</h1>
         <p>Begin by introducing PVC sliding windows. Explain that they are a popular type of window made from
@@ -242,9 +326,7 @@
                    and enhanced comfort.
         </p>
         </div>
-        <div class="img-area">
-        <img src="gallary/pvc-sliding-window-500x500.webp" width="100%" height="100%">
-         </div>
+        
     </div>
     </div>
     <br>
@@ -252,6 +334,9 @@
                                             <!--3-main-box -->
     <div class="main-box">
         <div class="main-cont">
+          <div class="img-area">
+            <img src="gallary/PVC Double-Hung Windows.jpg" width="100%" height="100%">
+             </div>
             <div class="text-area">
             <h1>PVC Double-Hung Windows</h1>
             <p>Start by introducing PVC double-hung windows. Explain that they are a popular type of window 
@@ -279,9 +364,7 @@
                       efficiency, resulting in energy savings and enhanced comfort.
             </p>
             </div>
-            <div class="img-area">
-            <img src="gallary/PVC Double-Hung Windows.jpg" width="100%" height="100%">
-             </div>
+
         </div>
         </div>
         <br>
@@ -289,6 +372,9 @@
                                         <!-- 4-main-box -->
         <div class="main-box">
             <div class="main-cont">
+              <div class="img-area">
+                <img src="gallary/awaing window.jpg" width="100%" height="100%">
+                 </div>
                 <div class="text-area">
                 <h1>PVC Awning Windows</h1>
                 <p>Start by introducing PVC awning windows. Explain that they are a type of window made from 
@@ -317,9 +403,7 @@
                            efficiency, resulting in energy savings and enhanced comfort.
                 </p>
                 </div>
-                <div class="img-area">
-                <img src="gallary/awaing window.jpg" width="100%" height="100%">
-                 </div>
+                
             </div>
             </div>
             <br>
@@ -327,6 +411,9 @@
                                                  <!--5-main-box  -->
 <div class="main-box">
     <div class="main-cont">
+      <div class="img-area">
+        <img src="gallary/picture window.jpg" width="100%" height="100%">
+         </div>
         <div class="text-area">
         <h1>PVC Picture Windows</h1>
         <p>Begin by introducing picture windows as a type of window that is designed primarily to frame and showcase 
@@ -353,9 +440,7 @@
               overall ambiance of a room.
         </p>
          </div>
-         <div class="img-area">
-         <img src="gallary/picture window.jpg" width="100%" height="100%">
-          </div>
+         
     </div>
      </div>
      <br>
@@ -363,6 +448,9 @@
                                           <!-- 6-main-box -->
     <div class="main-box">
         <div class="main-cont">
+          <div class="img-area">
+            <img src="gallary/bay windows.jpg" width="100%" height="100%">
+             </div>
             <div class="text-area">
             <h1>PVC Bay and Bow Windows</h1>
             <p>Begin by introducing bay and bow windows as distinctive window designs that project outward 
@@ -391,9 +479,7 @@
                 natural light to enter, brightening up the room and creating a welcoming atmosphere.
             </p>
              </div>
-             <div class="img-area">
-             <img src="gallary/bay windows.jpg" width="100%" height="100%">
-              </div>
+             
         </div>
          </div>
          <br>
@@ -401,6 +487,9 @@
                                        <!--7-main-box  -->
         <div class="main-box">
             <div class="main-cont">
+              <div class="img-area">
+                <img src="gallary/tilt and turn window.jpg" width="100%" height="100%">
+                 </div>
                 <div class="text-area">
                 <h1>PVC Tilt and Turn Windows</h1>
                 <p>Begin by introducing tilt and turn windows as a modern and innovative window design. Explain that they 
@@ -429,9 +518,7 @@
                       task. Discuss how this feature is especially beneficial for upper floors or hard-to-reach areas.
                 </p>
                  </div>
-                 <div class="img-area">
-                 <img src="gallary/tilt and turn window.jpg" width="100%" height="100%">
-                  </div>
+                 
             </div>
              </div>
              <br>
