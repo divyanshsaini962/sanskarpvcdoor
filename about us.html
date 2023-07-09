@@ -10,6 +10,7 @@
         .about-sec{
             width: 100%;
             height: auto;
+            margin-top: 19px;
         }
         .img-back{
             background-image: url('gallary/windo-about.png');
@@ -29,6 +30,10 @@
             font-family: 'Kanit', sans-serif;
             color: white;
             font-size: 40px;
+        }
+        .cont p{
+           padding-top: 14px;
+           font-size: 18px;
         }
         .cont p{
            padding-top: 14px;
@@ -63,6 +68,7 @@
             height: 1px;
             margin-top: 30px;
         }
+                                           /* main-box */
         .main-box{
             width: 100%;
             height: 500px;
@@ -90,9 +96,72 @@
         .img-area{
             width: 40%;
         }
+        .img-area img {
+          padding-top: 74px;
+        }
         .main-cont-2 {
             height: 500px;
-        }
+        }  
+                                           /* responsive code */
+@media only screen and (max-width: 1176px){
+  .main-cont{
+    margin: 20px 50px;
+  }
+}
+@media only screen and (max-width: 912px){
+  #header {
+    padding: 0px 72px;
+  }
+  .img-back{
+    height: auto;
+  }
+  .img-back {
+    height: auto;
+}
+.cont{
+  padding-left: 20px;
+    width: auto;
+  }
+.cont h1{
+  font-size: 25px;
+}
+.cont p{
+  font-size: 12px;
+  padding-top: 5px;
+}
+          /* main box */
+.main-box{
+  height: auto;
+  padding-bottom: 40px;
+}
+.main-cont{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px;
+}
+.img-area {
+    width: 100%;
+}
+.img-area img {
+  padding: 0px 14px;
+}
+.text-area {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 600px){
+  
+}
+@media only screen and (max-width: 400px){
+  
+
+
+}
+@media only screen and (max-width: 300px){
+ 
+}
     </style>
     <title>about Us</title>
 </head>
@@ -169,6 +238,9 @@
         <div class="line"></div>
         <div class="main-box">
             <div class="main-cont">
+              <div class="img-area">
+                <img src="gallary/about door.jpg" width="100%" height="100%">
+              </div>
               <div class="text-area">
                 <h1>SANSAR PVC DOOR AND FURNITURE</h1>
                 <p>Welcome to Sanskar PVC Door and Furniture! We take pride in being a leading provider of high-quality 
@@ -190,9 +262,7 @@
                        our workshop meets the highest standards of quality.
                 </p>
               </div>
-              <div class="img-area">
-                <img src="gallary/about door.jpg" width="100%" height="100%">
-              </div>
+              
             </div>
         </div>
     </section>
@@ -200,6 +270,9 @@
     <section class="about-sec-3 about-sec-2">
         <div class="main-box">
             <div class="main-cont main-cont-2">
+              <div class="img-area">
+                <img src="gallary/about door 2.jpg" width="100%" height="100%">
+              </div>
               <div class="text-area">
                 <h1>How We Manufacture and Design Our Products:</h1>
                 <p>At Sanskar PVC Door and Furniture, we take great care in the manufacturing and design process of 
@@ -227,9 +300,7 @@
                     to our customers' doorsteps.
                 </p>
               </div>
-              <div class="img-area">
-                <img src="gallary/about door 2.jpg" width="100%" height="100%">
-              </div>
+              
             </div>
         </div>
     </section>
