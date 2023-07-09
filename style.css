@@ -230,6 +230,7 @@
 	margin-bottom: 35px;
 	font-weight: 500;
 	position: relative;
+  margin-top: 10px;
 }
 .footer-col h4::before{
 	content: '';
