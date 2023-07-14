@@ -130,19 +130,18 @@
   .main_nav ul ul li:hover i{ color: #fff; }
 
                                                    /* section -1  */
-.sec-1{
+
+.img-1{
     width: 100%;
-    height: 110vh;
+    height: auto;
     background-position: center;
     background-size: cover;
-    background-image: url('./gallary/SEC-1.png');
 }
 
                                                     /* section - 2 */
-.sec-2{
+.img-2{
     width: 100%;
-    height: 100vh;
-    background-image: url('./gallary/SEC-2.png');
+    height: auto;
     background-position: center;
     background-size: cover;
 }
@@ -356,69 +355,6 @@
 }
 /* end of header-sec resp */
 
-/* sec-1 resp */
-@media only screen and (max-width: 1500px){
-  .sec-1{
-    height: 110vh;
-  }
-}
-@media only screen and (max-width: 912px){
-  .sec-1{
-    height: 36vh;
-  }
-}
-@media only screen and (max-width: 676px){
-  .sec-1{
-    width: 100%;
-    height: 43vh;
-}
-}
-@media only screen and (max-width: 300px){
-  .sec-1{
-    width: 100%;
-    height: 30vh;
-}
-}
-/* sec-2 resp start */
-
- @media only screen and (max-width: 1300px){
-.sec-2 {
-     height: 92vh;
-  } 
-}
-@media only screen and (max-width: 912px){
-
-    .sec-2 {
-        height: 32vh;
-    }
-   
-}
-@media only screen and (max-width: 705px){
-  .sec-2 {
-    height: 25vh;
-  }
-}
-@media only screen and (max-width: 588px){
-     .sec-2 {
-       height: 33vh;
-     }
-}
-@media only screen and (max-width: 504px){
-  .sec-2 {
-    height: 26vh;
-  }
-}
-@media only screen and (max-width: 404px){
-  .sec-2 {
-    height: 25vh;
-  }
-}
-@media only screen and (max-width: 338px){
-  .sec-2 {
-    height: 18vh;
-  }
-}
-                                /* end of sec-2 resp */
 
                                                         /* sec-3-4 resp */
 @media only screen and (max-width:900px){
