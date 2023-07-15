@@ -136,6 +136,7 @@
     height: auto;
     background-position: center;
     background-size: cover;
+    bottom: 0%;
 }
 
                                                     /* section - 2 */
@@ -144,6 +145,7 @@
     height: auto;
     background-position: center;
     background-size: cover;
+    top: 0%;
 }
 
 
