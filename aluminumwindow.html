@@ -13,102 +13,132 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <style>
-  .about-sec{
-            width: 100%;
-            height: auto;
-            margin-top: 19px;
-        }
-        .img-back{
-            background-image: url('gallary/windo-about.png');
-            width: 100%;
-            background-position: center;
-            background-size: cover;
-            height: 400px;
-        }
-        .cont{
-            height: 150px;
-            width: 660px;
-            padding: 10px;
-            padding-top: 50px;
-            padding-left: 88px;
-        }
-        .cont h1{
-            font-family: 'Kanit', sans-serif;
-            color: white;
-            font-size: 40px;
-        }
-        .cont p{
-           padding-top: 14px;
-           font-size: 18px;
-        }
-        .cont p{
-           padding-top: 14px;
-           padding-left: 4px;
-           font-size: 18px;
-           color: white;
-        }
-        .hedding{
-            width: 100%;
-            height: 30px;
-            display: flex;
-            margin-top: 17px;
-        }
-        .con-about{
-            padding-left: 20px;
-            display: flex;
-        }
-        .hedding p{
-            color: grey;
-            font-family: 'Kanit', sans-serif;
-            padding-left: 6px;
-            font-size: 18px;
-        }
-        .hedding p a{
-            color: grey;
-            text-decoration: none;
-            font-family: 'Kanit', sans-serif;
-            font-size: 18px;
-        }
-        .line{
-            background-color: #dde0e7;
-            height: 1px;
-            margin-top: 30px;
-        }
-                                           /* main-box */
-        .main-box{
-            width: 100%;
-            height: 500px;
-        }
-        .main-cont{
-            width: 986px;
-            height: 397px;
-            margin: 20px 176px;
-            display: flex;
-        }
-        .text-area{
-            width: 60%;
-        }
-        .text-area h1{
-            padding-left: 37px;
-            padding-top: 20px;
-            font-family: 'Kanit', sans-serif;
-        }
-        .text-area p{
-         padding-left: 38px;
-         font-family: 'Roboto', sans-serif;
-         color: grey;
-         padding-right: 18px;
-        }
-        .img-area{
-            width: 40%;
-        }
-        .img-area img {
-          padding-top: 74px;
-        }
-        .main-cont-2 {
-            height: 500px;
-        }  
-                                           /* responsive code */
+.about-sec{
+     width: 100%;
+     height: auto;
+     margin-top: 19px;
+ }
+ .img-back{
+     background-image: url('gallary/windo-about.png');
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     height: 400px;
+ }
+ h1{
+   color: white }
+ .cont{
+     height: 150px;
+     width: 660px;
+     padding: 10px;
+     padding-top: 50px;
+     padding-left: 88px;
+ }
+ .cont h2{
+     font-family: 'Kanit', sans-serif;
+     color: white;
+     font-size: 40px;
+ }
+ .cont p{
+    padding-top: 14px;
+    font-size: 18px;
+ }
+ .cont p{
+    padding-top: 14px;
+    padding-left: 4px;
+    font-size: 18px;
+    color: white;
+ }
+ .hedding{
+     width: 100%;
+     height: 30px;
+     display: flex;
+     margin-top: 17px;
+ }
+ .con-about{
+     padding-left: 20px;
+     display: flex;
+ }
+ .hedding p{
+     color: grey;
+     font-family: 'Kanit', sans-serif;
+     padding-left: 6px;
+     font-size: 18px;
+ }
+ .hedding p a{
+     color: grey;
+     text-decoration: none;
+     font-family: 'Kanit', sans-serif;
+     font-size: 18px;
+ }
+ .line{
+     background-color: #dde0e7;
+     height: 1px;
+     margin-top: 30px;
+ }
+                                   /* introduction - section */
+ .intro{
+   width: 73%;
+   height: auto;
+   background-color: white;
+   border-radius: 9px;
+ }
+ .intro h1{
+   color: black;
+   padding: 15px 20px;
+ }
+ .intro p{
+   font-family: 'Roboto', sans-serif;
+   color: rgb(0, 0, 0);
+   padding: 0px 20px;
+   padding-bottom: 20px;
+ }
+ .intro span{
+   font-weight: bold;
+   color: black;
+ }
+                                    /* main-box */
+ .main-box{
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-direction: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .main-cont{
+     width: 986px;
+     height: auto;
+     margin: 20px 176px;
+     display: flex;
+     background: white;
+     border-radius: 9px;
+ }
+ .text-area{
+     width: 60%;
+ }
+ .text-area h2{
+     padding-left: 37px;
+     padding-top: 20px;
+     font-family: 'Kanit', sans-serif;
+ }
+ .text-area p{
+  padding-left: 38px;
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+  padding-right: 18px;
+ }
+ .img-area{
+     width: 40%;
+ }
+ .img-area img {
+   padding: 50px 0px;
+   margin: 0px 15px;
+ }
+ .main-cont-2 {
+     height: 500px;
+ }  
+                                    /* responsive code */
 @media only screen and (max-width: 1176px){
   .main-cont{
     margin: 20px 50px;
@@ -125,7 +155,7 @@
     padding-left: 45px;
     width: 390px;
   }
-.cont h1{
+.cont h2{
   font-size: 25px;
 }
 .cont p{
@@ -154,7 +184,7 @@
 .text-area{
   width: 100%;
 }
-.text-area h1{
+.text-area h2{
   padding-top: 9px;
 }
 }
@@ -168,7 +198,7 @@
   .img-back {
     height: auto;
 }
-.cont h1{
+.cont h2{
   font-size: 25px;
 }
 .cont p{
@@ -180,16 +210,16 @@
   .cont{
     padding-left: 25px;
   }
-  .cont h1 {
+  .cont h2 {
     font-size: 20px;
 }
 .cont p {
     font-size: 9px;
 }
-}                                 
-      
-  </style>
-    <title>Aluminium Window</title>
+}
+        
+    </style>
+    <title>Different Types of Aluminium Windows for your house</title>
 </head>
 <body>
   <header id="header"><!--header-start-->
@@ -264,6 +294,44 @@
         <div class="line"></div>
     <br>
     <br>
+                                 <!-- introduction-box -->
+<div class="main-box">
+   <div class="intro">
+    <h1>What is Aluminium window</h1>
+    <p>
+      Aluminum windows are windows that are constructed using aluminum as the main material for the window frames.
+      Aluminum is a lightweight and durable metal that is commonly used in various construction applications, 
+      including windows and doors.
+       <br>
+       <br>
+       Aluminum windows offer several benefits due to the properties of the material. They are known for their 
+       strength, corrosion resistance, and ability to withstand various weather conditions. These windows are 
+       often chosen for both residential and commercial buildings.
+       <br>
+       <br>
+       Aluminum window frames can be designed in various styles, such as casement, sliding, awning, and fixed 
+       windows. They can also be customized with different finishes and colors to match the architectural 
+       aesthetics of a building.
+       <br>
+       <br>
+       One of the notable features of aluminum windows is their sleek and modern appearance. They can accommodate
+       large glass panels, allowing for plenty of natural light to enter indoor spaces and providing unobstructed 
+       views. Additionally, aluminum windows can be equipped with thermal breaks and insulating materials to 
+       improve their energy efficiency and thermal performance.
+        <br>
+        <br>
+        Aluminum windows require relatively low maintenance, and they are favored for their durability and 
+        longevity. They are often used in locations where there's exposure to harsh weather conditions or
+         where a contemporary design aesthetic is desired.
+        <br>
+        <br>
+        <span>Different Types of Aluminium windows</span>
+
+    </p>
+   </div>
+</div>
+
+
                                                       <!-- 1-main-box -->
     <div class="main-box">
   <div class="main-cont">
@@ -271,7 +339,7 @@
       <img src="gallary/casematic window.jpg" width="100%" height="100%">
     </div>
     <div class="text-area">
-      <h1>Aluminum Casement Windows:</h1>
+      <h2>Aluminum Casement Windows:</h2>
       <p>Aluminum casement windows are a popular choice for homeowners seeking a combination of durability,
          style, and functionality. These windows feature sleek aluminum frames and hinged sashes that swing 
          open outward, providing excellent ventilation and unobstructed views. Aluminum casement windows are
@@ -304,7 +372,7 @@
         <img src="gallary/sliding window aluminium.jpg" width="100%" height="100%">
       </div>
       <div class="text-area">
-        <h1>Aluminum Sliding Windows:</h1>
+        <h2>Aluminum Sliding Windows:</h2>
         <p>Aluminum sliding windows are a popular choice for homeowners seeking a sleek and modern window 
             design that maximizes natural light and provides easy operation. These windows feature durable 
             aluminum frames and large glass panels that slide horizontally to open and close. Aluminum 
@@ -339,7 +407,7 @@
         <img src="gallary/aluminium awnig window.jpg" width="100%" height="100%">
       </div>
       <div class="text-area">
-        <h1>Aluminum Awning Windows:</h1>
+        <h2>Aluminum Awning Windows:</h2>
         <p>Aluminum awning windows are a popular choice for homeowners seeking a combination of durability,
              functionality, and contemporary design. These windows feature aluminum frames and a unique 
              awning-style operation, where the bottom of the window sash opens outward to create a protective
@@ -374,7 +442,7 @@
         <img src="gallary/aluminium picture window.jpg" width="100%" height="100%">
       </div>
       <div class="text-area">
-        <h1>Aluminum Picture Windows:</h1>
+        <h2>Aluminum Picture Windows:</h2>
         <p>Aluminum picture windows are a popular choice for homeowners seeking to maximize natural light,
              enhance views, and create a modern and sleek aesthetic. These windows feature large, fixed 
              glass panels that do not open or close, providing unobstructed views of the surrounding 
@@ -411,7 +479,7 @@
         <img src="gallary/aluminium bay windows.jpg" width="100%" height="100%">
       </div>
       <div class="text-area">
-        <h1>Aluminum Bay and Bow Windows</h1>
+        <h2>Aluminum Bay and Bow Windows</h2>
         <p>Aluminum bay and bow windows are a popular choice for homeowners looking to add architectural 
             interest, increase natural light, and create a sense of spaciousness in their homes. These
              windows feature a combination of fixed and operable windows that project outward from the main
@@ -447,7 +515,7 @@
         <img src="gallary/aluminium sky window.jpg" width="100%" height="100%">
       </div>
       <div class="text-area">
-        <h1>Aluminum Skylight Windows:</h1>
+        <h2>Aluminum Skylight Windows:</h2>
         <p>Aluminum skylight windows are an excellent choice for homeowners looking to bring natural light 
             into their homes while adding a touch of architectural elegance. These windows are designed to
              be installed in the roof or ceiling, allowing sunlight to enter from above and brighten the 
@@ -482,7 +550,7 @@
         <img src="gallary/aluminium-tilt-and-turn-windows-.webp" width="100%" height="100%">
       </div>
       <div class="text-area">
-        <h1>Aluminum Tilt and Turn Windows:</h1>
+        <h2>Aluminum Tilt and Turn Windows:</h2>
         <p>Aluminum tilt and turn windows offer a versatile and practical solution for homeowners seeking 
             windows that provide enhanced ventilation, ease of cleaning, and security. These windows 
             feature a unique dual-opening mechanism that allows them to tilt open from the top for 
@@ -519,7 +587,7 @@
           <div class="footer-col">
             <h4>Sanskar Pvc Door & Furniture</h4>
             <p class="footer-p">Introduction:
-              Introducing our premium PVC door, designed to elevate the aesthetics of your home
+              Introducing our premium PVC, alluminium, wood door, designed to elevate the aesthetics of your home
                while providing exceptional durability and functionality. Crafted with the finest
                 quality materials, this door offers an array of benefits that make it a perfect
                  addition to any residential or commercial space.</p>
