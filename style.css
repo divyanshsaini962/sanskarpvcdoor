@@ -145,7 +145,7 @@
     height: auto;
     background-position: center;
     background-size: cover;
-    top: 0%;
+    margin-top: -10px;
 }
 
 
@@ -368,14 +368,14 @@
   .win-gall{
     width: 40%;
     height: auto;
-    /* margin: 21px; */
+    margin: 21px;
 }
 }
 @media only screen and (max-width:600px){
   .win-gall{
     width: 70%;
     height: auto;
-    /* margin: 21px; */
+    margin: 21px;
 }
 }
 /* start footer-sec resp */
